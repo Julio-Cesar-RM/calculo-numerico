@@ -2,6 +2,6 @@
 
 ## Métodos:
 1. Método de Newton Raphson (finalizado)
-2. Método da Bissecção
+2. Método da Bissecção (finalizado)
 3. Método das Secantes
 ---
