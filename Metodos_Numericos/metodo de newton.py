@@ -1,11 +1,11 @@
 from defs import modulo
 x0 = float(input('Entre com o X0: '))
 error = float(input('Entre com o erro: '))
-f = x0**2 + x0 - 6
+f = x0**3 - x0 
 k = 0
 while modulo(f) > error:
-    f = x0**2 + x0 - 6
-    fl = 2 * x0 + 1
+    f = x0**3 - x0 
+    fl = (3 * (x0**2)) - 1
     if fl == 0:
         print('Erro, a derivada deu zero')
         break
